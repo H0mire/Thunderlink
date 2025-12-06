@@ -1,0 +1,45 @@
+[package]
+name = "thunderlink"
+version = "0.1.0"
+description = "Cross-platform high-speed file transfer over Thunderbolt/USB-C"
+authors = ["Thunderlink Team"]
+edition = "2021"
+
+[lib]
+name = "thunderlink_lib"
+crate-type = ["lib", "cdylib", "staticlib"]
+
+[[bin]]
+name = "thunderlink"
+path = "src/main.rs"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-shell = "2"
+tauri-plugin-dialog = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["full"] }
+tokio-util = { version = "0.7", features = ["codec", "io"] }
+futures = "0.3"
+local-ip-address = "0.6"
+if-addrs = "0.13"
+uuid = { version = "1", features = ["v4"] }
+sha2 = "0.10"
+hex = "0.4"
+chrono = { version = "0.4", features = ["serde"] }
+thiserror = "1"
+parking_lot = "0.12"
+directories = "5"
+hostname = "0.4"
+
+[profile.release]
+panic = "abort"
+codegen-units = 1
+lto = true
+opt-level = "s"
+strip = true
+

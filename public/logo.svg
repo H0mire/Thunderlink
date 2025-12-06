@@ -1,0 +1,32 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff"/>
+      <stop offset="100%" style="stop-color:#7b61ff"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="120" height="120" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Lightning bolt -->
+  <path d="M68 22L42 62H56L50 98L78 58H64L68 22Z" 
+        fill="white" 
+        filter="url(#glow)"/>
+  
+  <!-- Connection dots -->
+  <circle cx="30" cy="60" r="6" fill="white" opacity="0.8"/>
+  <circle cx="90" cy="60" r="6" fill="white" opacity="0.8"/>
+  
+  <!-- Connection lines -->
+  <line x1="36" y1="60" x2="42" y2="60" stroke="white" stroke-width="2" opacity="0.6"/>
+  <line x1="78" y1="60" x2="84" y2="60" stroke="white" stroke-width="2" opacity="0.6"/>
+</svg>
+
