@@ -28,7 +28,7 @@
 **Thunderlink** transforms your Thunderbolt or USB-C cable into a high-speed data highway between two computers. No cloud, no network configuration, no hassle – just connect and transfer at speeds up to **40 Gbps**.
 
 <p align="center">
-  <img src="docs/preview.png" alt="Thunderlink Screenshot" width="700">
+  <img src="docs/screenshot.png" alt="Thunderlink Screenshot" width="700">
 </p>
 
 ## ✨ Features
