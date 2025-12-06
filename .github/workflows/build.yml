@@ -71,7 +71,31 @@ jobs:
         with:
           tagName: v__VERSION__
           releaseName: 'Thunderlink v__VERSION__'
-          releaseBody: 'Download the installer for your platform below.'
+          releaseBody: |
+            ## ⚡ Thunderlink v__VERSION__
+            
+            High-speed file transfer over Thunderbolt/USB-C.
+            
+            ### 📥 Download
+            
+            | Platform | File |
+            |----------|------|
+            | **macOS (Apple Silicon)** | `Thunderlink_*_aarch64.dmg` |
+            | **macOS (Intel)** | `Thunderlink_*_x64.dmg` |
+            | **Windows** | `Thunderlink_*_x64-setup.exe` |
+            | **Linux** | `Thunderlink_*_amd64.AppImage` or `.deb` |
+            
+            ### 🍎 macOS: "App is damaged" fix
+            
+            macOS blocks unsigned apps. After downloading, run in Terminal:
+            ```bash
+            xattr -cr /Applications/Thunderlink.app
+            ```
+            Or right-click the app → Open → Open anyway.
+            
+            ### 🪟 Windows: SmartScreen warning
+            
+            Click "More info" → "Run anyway" if Windows SmartScreen appears.
           releaseDraft: true
           prerelease: false
 
