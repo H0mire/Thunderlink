@@ -1,6 +1,6 @@
 {
   "name": "thunderlink",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Cross-platform high-speed file transfer over Thunderbolt/USB-C",
   "type": "module",
   "scripts": {
