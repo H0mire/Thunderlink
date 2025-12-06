@@ -87,11 +87,12 @@ jobs:
             
             ### 🍎 macOS: "App is damaged" fix
             
-            macOS blocks unsigned apps. After downloading, run in Terminal:
+            macOS blocks unsigned apps. **Right-click** the app → **Open** → **Open** (confirm).
+            
+            Or run in Terminal:
             ```bash
-            xattr -cr /Applications/Thunderlink.app
+            xattr -c /Applications/Thunderlink.app
             ```
-            Or right-click the app → Open → Open anyway.
             
             ### 🪟 Windows: SmartScreen warning
             
