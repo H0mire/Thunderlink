@@ -49,9 +49,9 @@
 
 | Platform | Download |
 |----------|----------|
-| macOS | [Thunderlink.dmg](https://github.com/yourusername/thunderlink/releases/latest) |
-| Windows | [Thunderlink.exe](https://github.com/yourusername/thunderlink/releases/latest) |
-| Linux | [Thunderlink.AppImage](https://github.com/yourusername/thunderlink/releases/latest) |
+| macOS | [Thunderlink.dmg](https://github.com/H0mire/thunderlink/releases/latest) |
+| Windows | [Thunderlink.exe](https://github.com/H0mire/thunderlink/releases/latest) |
+| Linux | [Thunderlink.AppImage](https://github.com/H0mire/thunderlink/releases/latest) |
 
 ### Requirements
 
@@ -107,7 +107,7 @@ boltctl list  # Verify connection
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/thunderlink.git
+git clone https://github.com/H0mire/thunderlink.git
 cd thunderlink
 
 # Install dependencies
@@ -186,7 +186,7 @@ We love contributions! Thunderlink is built by the community, for the community.
 
 | Area | Description |
 |------|-------------|
-| 🐛 **Bug Reports** | Found a bug? [Open an issue](https://github.com/yourusername/thunderlink/issues) |
+| 🐛 **Bug Reports** | Found a bug? [Open an issue](https://github.com/H0mire/thunderlink/issues) |
 | 💡 **Feature Ideas** | Have an idea? We'd love to hear it! |
 | 🌍 **Translations** | Help us reach more users worldwide |
 | 📖 **Documentation** | Improve guides and examples |
@@ -212,5 +212,5 @@ MIT License – see [LICENSE](LICENSE) for details.
 </p>
 
 <p align="center">
-  <a href="https://github.com/yourusername/thunderlink/stargazers">⭐ Star us on GitHub</a>
+  <a href="https://github.com/H0mire/thunderlink/stargazers">⭐ Star us on GitHub</a>
 </p>

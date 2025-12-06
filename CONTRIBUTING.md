@@ -266,7 +266,7 @@ Add screenshots for UI changes
 ## ❓ Questions?
 
 Feel free to:
-- Open a [Discussion](https://github.com/yourusername/thunderlink/discussions)
+- Open a [Discussion](https://github.com/H0mire/thunderlink/discussions)
 - Ask in an Issue
 - Reach out to maintainers
 
